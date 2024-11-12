@@ -12,13 +12,8 @@ EasyMeal is a meal-planning application that helps users create a grocery list b
 ### Prerequisites
 1. **Python 3.x**: Ensure Python 3.x is installed on your machine.
 2. **Required Libraries**: Install the necessary libraries listed in `requirements.txt`.
-   - You can install them using:
-     ```bash
-     pip install -r requirements.txt
-     ```
+   
 
 ### Setup Instructions
 1. **Fork and Clone the Repository**: Begin by forking this repository to your GitHub account, then clone it to your local machine.
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/EasyMeal.git
-
+   
