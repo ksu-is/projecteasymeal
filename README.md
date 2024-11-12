@@ -1,21 +1,24 @@
-# Python Teaching Code
-This repository ("repo") contains a variety of starter project code and demo code for showing different capabilities and how to use them in Python.
+# EasyMeal Project
 
-Begin by forking this repository to your own Github account. Next, you can clone it to your machine and run the examples and customize the code. If you do not fork it first, you will not be able to save changes, as you do not have permission to change this original template in my account.
+EasyMeal is a meal-planning application that helps users create a grocery list based on what they already have in their pantry. Users input their available ingredients, select recipes, and the app generates a list of missing items for easy grocery shopping. 
 
-The projects included here include working code and some experimental code. Some also require additional libraries and capabilities on your computer in order for you to use them. Those are noted below.
+## Features
+- **Pantry Management**: Track ingredients you already have.
+- **Recipe Selection**: Browse and select recipes to plan meals.
+- **Grocery List Generation**: Automatically create a shopping list for missing ingredients.
 
-1. Gradetracker
-> This project is a simple demonstration of an application in fewer than 100 lines of code. You can see functions and other capabilities used here. The code requires the built-in statistics library to be imported. It should run on any version of Python 3.
-2. KSU scrape
-> This project demonstrates how Python can be used to grab data from a web page and process it into orderly results that can be used for further analysis and actions. It requires several add-on libraries. You will especially need to install the beautiful soup library and the lxml parser library in order to use this code. The command line command for installing is '''pip install bs4''' This may work for you. Otherwise, you may need to try '''python -m pip install bs4''' On a Mac, you will need to guide the install to your Python 3 installation, since Macs also already have Python 2 associated with the command '''python''' by default. So, you would run '''pip3 install bs4'''. Similarly, you can install other modules by putting their official name instead of '''bs4''' in the preceding commands. For more info, watch https://www.youtube.com/watch?v=jnpC_Ib_lbc.
-3. calcGUI
-> This project shows you a Python application working in a graphical user interface window with buttons and bindings to your keyboard keys. It should work on all Python 3.6 or newer versions, because they have the GUI library tkinter pre-installed.
-4. DB in Python
-> This project demonstrates how to connect Python to a local MySQL database server. It requires that you download and install MySQL server on your local machine first. Next, you have to import the database of student data (.sql file) into your MySQL server. Then, you need to edit the code to use the password for your MySQL server on your machine and install and import the library to connect to MySQL. Then, it can work! There is also a folder here with experimental code for transforming gradetracker into GUI and DB-driven versions. These may not work, but you are welcome to test them and upgrade them.
-5. RaspberryPi button
-> This project requires some wiring as well as a RaspberryPi computer and associated peripherals.
-6. Web Page with Flask
-> This project requires that you install the flask module. After that, when you run it, it will create a web server on your machine and host your Python and HTML files in dynamic web pages.
-7. Data Analytics with Jupyter and Pandas
-> COMING SOON
+## Getting Started
+
+### Prerequisites
+1. **Python 3.x**: Ensure Python 3.x is installed on your machine.
+2. **Required Libraries**: Install the necessary libraries listed in `requirements.txt`.
+   - You can install them using:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+### Setup Instructions
+1. **Fork and Clone the Repository**: Begin by forking this repository to your GitHub account, then clone it to your local machine.
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/EasyMeal.git
+
