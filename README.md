@@ -17,7 +17,7 @@ EasyMeal is a meal-planning application that helps users create a grocery list b
 ### Setup Instructions
 1. **Fork and Clone the Repository**: Begin by forking this repository to your GitHub account, then clone it to your local machine.
    
-Sprint 2: EasyMeal Project
+## Sprint 2
 
 ## Tasks
 
