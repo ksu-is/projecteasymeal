@@ -20,6 +20,14 @@ EasyMeal is a meal-planning application that helps users create a grocery list b
 ## Tasks
 
 - [x] **Add example code
+- [ ] Build pantry database (IN PROGRESS - Ewa)  
+  - Notes: Added fields for ingredients, pending app integration.
+
+ - [ ] Create HTML templates  
+  - [x] Log-in  
+  - [ ] Home screen  
+  - [ ] Add Recipe  
+
 
 
 
